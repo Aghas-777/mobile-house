@@ -45,8 +45,8 @@
 
                 <div class="col-2 d-none d-lg-block">
                     <button type="button" class="btn btn-primary">
-                        Wishlist <span class="badge badge-light">2</span>
-                    </button>
+                        <a href="account.html" class="text-light">Wishlist</a> <span class="badge badge-light">2</span>
+                      </button>
                 </div>
             </div>
 
@@ -186,24 +186,204 @@
 
         <div class="container d-flex ">
             <div class="row">
-                <div
-                    class="col col-xl-3 col-lg-3 col-md-3 d-md-none d-xl-block d-lg-block d-none d-sm-none h-100 bg-white border-dark">
-                    <a href="">Select brand</a><br>
-                    <a href="">Select size</a><br>
-                    <a href="">Select CPU</a><br>
-                    <a href="">Select dual camera</a><br>
-                    <a href="">Select 2 sim</a><br>
-                    <a href="">Select 4G</a><br>
-                    <a href="">Select 5G</a><br>
-                    <a href="">Select android:10</a><br>
+                <div class="col col-xl-3 col-lg-3 col-md-3 d-md-none d-xl-block d-lg-block d-none d-sm-none h-100 bg-white border-dark">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Select brend
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                      SAMSUNG
+                                    </label><br>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                      IPHONE
+                                    </label><br>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                      XIAOMI
+                                    </label><br>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Select CPU
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                      cor i3 5th GEN
+                                    </label><br>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        cor i3 7th GEN
+                                    </label><br>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        cor i5 7th GEN
+                                    </label><br>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Select camera
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                      dual camera 
+                                    </label><br>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                       Super
+                                    </label><br>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                       first
+                                    </label><br>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFore">
+                              <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFore" aria-expanded="false" aria-controls="collapseThree">
+                                  Select sim
+                                </button>
+                              </h2>
+                            </div>
+                            <div id="collapseFore" class="collapse" aria-labelledby="headingFore" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                        2 
+                                      </label><br>
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                         3
+                                      </label><br> 
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                              <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                  Select network
+                                </button>
+                              </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                        3G
+                                      </label><br>
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                         4G
+                                      </label><br> 
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                         5G
+                                      </label><br> 
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                              <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                                  Select android
+                                </button>
+                              </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                        8
+                                      </label><br>
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                         9
+                                      </label><br> 
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                         10
+                                      </label><br> 
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSevn">
+                              <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSevn" aria-expanded="false" aria-controls="collapseThree">
+                                  Select IOS
+                                </button>
+                              </h2>
+                            </div>
+                            <div id="collapseSevn" class="collapse" aria-labelledby="headingSevn" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                        7
+                                      </label><br>
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                         8
+                                      </label><br> 
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                         9
+                                      </label><br> 
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="custom-control custom-switch">
                         <input type="checkbox" class="custom-control-input" id="customSwitch1">
                         <label class="custom-control-label" for="customSwitch1">With Images Only</label>
-                      </div>
-                      <div class="custom-control custom-switch">
+                    </div>
+                    <div class="custom-control custom-switch">
                         <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
                         <label class="custom-control-label" for="customSwitch2">Free Shipping</label>
-                      </div>
+                    </div>
 
                 </div>
                 <div class="col ">
@@ -223,7 +403,7 @@
                             </div>
                             <div class="col-md-4 my-auto a">
                                 <p>$200</p>
-                                <a href="#" class="btn btn-primary ">Add To Cart</a>
+                                <a href="card.html" class="btn btn-primary ">Add To Cart</a>
                             </div>
                             
                         </div>
@@ -244,7 +424,7 @@
                             </div>
                             <div class="col-md-4 my-auto a">
                                 <p>$395</p>
-                                <a href="#" class="btn btn-primary ">Add To Cart</a>
+                                <a href="card.html" class="btn btn-primary ">Add To Cart</a>
                             </div>
                         </div>
                     </div>
@@ -263,7 +443,7 @@
                             </div>
                             <div class="col-md-4 my-auto a">
                                 <p>$850</p>
-                                <a href="#" class="btn btn-primary ">Add To Cart</a>
+                                <a href="card.html" class="btn btn-primary ">Add To Cart</a>
                             </div>
                         </div>
                     </div>
@@ -299,47 +479,46 @@
         <div class="row">
             <div class="col-lg d-none d-lg-block col pr-0 border">
                 <ul class="list-group">
-                    <h5 class=""> Group 1</h5>
-                    <a href="#" class="action">link 1</a>
-                    <a href="#" class="=action">link 1</a>
-                    <a href="#" class="=action">link 1</a>
+                    <h5 class="">CONTACT FOR ME</h5>
+                    <a href="#" class="action text-danger"><strong>FOR ME</strong></a>
+                    <a href="#" class="action text-danger"><strong>CONTACT US</strong></a>
+                    <a href="#" class="action text-danger"><strong>TEAM</strong></a>
                 </ul>
-
             </div>
             <div class="col-lg d-none d-lg-block border">
                 <ul class="list-group">
-                    <h5 class=""> Group 2</h5>
-                    <a href="#" class="action">link 1</a>
-                    <a href="#" class="=action">link 1</a>
-                    <a href="#" class="=action">link 1</a>
+                    <h5 class="">CONTACT FOR ME</h5>
+                    <a href="#" class="action text-danger"><strong>FOR ME</strong></a>
+                    <a href="#" class="action text-danger"><strong>CONTACT US</strong></a>
+                    <a href="#" class="action text-danger"><strong>TEAM</strong></a>
                 </ul>
 
 
             </div>
             <div class="col-lg d-none d-lg-block  border">
                 <ul class="list-group">
-                    <h5 class=""> Group 3</h5>
-                    <a href="#" class="action">link 1</a>
-                    <a href="#" class="=action">link 1</a>
-                    <a href="#" class="=action">link 1</a>
+                    <h5 class="">CONTACT FOR ME</h5>
+                    <a href="#" class="action text-danger"><strong>FOR ME</strong></a>
+                    <a href="#" class="action text-danger"><strong>CONTACT US</strong></a>
+                    <a href="#" class="action text-danger"><strong>TEAM</strong></a>
                 </ul>
 
             </div>
             <div class="col-lg d-none d-lg-block  border">
                 <ul class="list-group">
-                    <h5 class=""> Group 4</h5>
-                    <a href="#" class="action">link 1</a>
-                    <a href="#" class="=action">link 1</a>
-                    <a href="#" class="=action">link 1</a>
+                    <h5 class="">CONTACT FOR ME</h5>
+                    <a href="#" class="action text-danger"><strong>FOR ME</strong></a>
+                    <a href="#" class="action text-danger"><strong>CONTACT US</strong></a>
+                    <a href="#" class="action text-danger"><strong>TEAM</strong></a>
                 </ul>
 
             </div>
             <div class="col-lg d-none d-lg-block border">
                 <ul class="list-group">
-                    <h5 class="">Group 5</h5>
-                    <a href="#" class="action">link 1</a>
-                    <a href="#" class="=action">link 1</a>
-                    <a href="#" class="=action">link 1</a>
+                    <h5 class="">CONTACT FOR ME</h5>
+                    <a href="#" class="action text-danger"><strong>FOR ME</strong></a>
+                    <a href="#" class="action text-danger"><strong>CONTACT US</strong></a>
+                    <a href="#" class="action text-danger"><strong>TEAM</strong></a>
                 </ul>
 
             </div>
